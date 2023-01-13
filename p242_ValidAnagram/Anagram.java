@@ -12,7 +12,6 @@ public class Anagram {
             cs[i] = s.charAt(i);
             ct[i] = t.charAt(i);
         }
-
         Arrays.sort(cs);
         Arrays.sort(ct);
         for(int i = 0; i < s.length(); i++){
